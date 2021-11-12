@@ -1,0 +1,66 @@
+
+ROM used:   686/8192 (8%)
+            686/8192 (8%) including unused fragments
+
+            0.1 Average locations per line
+            1.0 Average locations per statement
+
+RAM used:   43/368 (12%) at main() level
+            63/368 (17%) worst case
+
+Stack used: 3 worst case (3 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  130    44   6  877A.c
+  639     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\16F877.h
+ 2229   257  37  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  423     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+ 1351   359  51  ..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+  114    43   6  display_tm1637.h
+----- -----
+ 4946   703 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     29   4    2             @ITOF
+ Inline        13             @MULFF
+0     37   5    5             @DIV1616
+0     21   3    1             @delay_ms1
+0     18   3    0    72  1.2  start
+0     32   5    0   134  1.3  stop
+0     81  12    3   585  6.0  writebyte
+0     10   1    2    65  1.6  init_tm1637
+0     43   6    5   308  2.9  write_full_display
+0      9   1    0    50  1.5  IniVariables
+0     12   2    0    67  1.2  IniPuertos
+0     34   5    0    90  2.1  ConfiguraPWM
+0    210  31    2   247  3.7  Visualiza
+0    146  21    0   621  6.2  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               10
+    Statements              703
+    Comments                917
+    Volume (V)              3542
+    Difficulty (D)          27.7
+    Effort to implement (E) 98015
+    Time to implement (T)   1 hours, 31 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   6
+    Maintainability (MI)    110
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   682  1362  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

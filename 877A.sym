@@ -1,0 +1,116 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020-021 strtok.save
+022-025 _Randseed
+026-02F valores
+030-031 periodo
+032-033 Valor
+034-035 DC
+036-037 CONT
+038-039 unidad
+03A-03B decena
+03C-03D centena
+03E-041 volts
+042-045 voltsV
+046-049 atan2.y
+046-047 @ITOF.P1
+046     @delay_ms1.P2
+046-047 Visualiza.numero
+046     init_tm1637.BRIGHT
+047     init_tm1637.@SCRATCH1
+048     write_full_display.valor0
+048-04B @MULFF.P1
+048     Visualiza.@SCRATCH1
+049     write_full_display.valor1
+049     Visualiza.@SCRATCH2
+04A     write_full_display.valor2
+04A-04D atan2.x
+04A-04B @DIV1616.P1
+04B     write_full_display.valor3
+04C-04D @DIV1616.P1
+04C-04F @MULFF.P2
+04C     write_full_display.@SCRATCH1
+04D     writebyte.value
+04E     writebyte.i
+04E-051 atan2.z
+04E     @DIV1616.@SCRATCH1
+04F     writebyte.ack
+050     @MULFF.@SCRATCH1
+051     @MULFF.@SCRATCH2
+052.0   atan2.sign
+052     @MULFF.@SCRATCH3
+053     atan2.quad
+053     @MULFF.@SCRATCH4
+054     @MULFF.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  IniPuertos
+000010  IniVariables
+000019  ConfiguraPWM
+00003B  start
+00004D  writebyte
+00009E  stop
+0000BE  init_tm1637
+0000C8  write_full_display
+0000F3  @DIV1616
+000118  @ITOF
+000135  Visualiza
+000143  @MULFF
+000207  @delay_ms1
+00021C  @cinit1
+00021C  MAIN
+00022E  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    C:\Users\DAVID\Desktop\TM1637\
+
+Project Files:
+    877A.c                                                  [14-nov.-18 10:46  CRC=C6AE02FB]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\16F877.h   [12-nov.-13 14:35  CRC=ADB5114D]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h     [28-sept.-12 11:35  CRC=546412C9]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\string.h   [14-jul.-11 10:13  CRC=23EDEC8F]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h   [16-jul.-10 09:27  CRC=897CEC6C]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h    [03-ene.-08 13:55  CRC=2D1F019F]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h   [08-jun.-11 14:39  CRC=0B6669CF]
+    display_tm1637.h                                        [21-abr.-18 16:32  CRC=13647181]
+
+Source signature=D5804E7C
+
+Units:
+    877A (main)
+
+Compiler Settings:
+    Processor:      PIC16F877
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   877A.xsym
+    Errors:      877A.err
+    Ext Symbols: 877A.esym
+    INHX8:       877A.hex
+    Symbols:     877A.sym
+    List:        877A.lst
+    Debug/COFF:  877A.cof
+    Project:     877A.ccspjt
+    Call Tree:   877A.tre
+    Statistics:  877A.STA

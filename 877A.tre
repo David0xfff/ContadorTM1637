@@ -1,0 +1,40 @@
+ÀÄ877A
+   ÀÄMAIN  0/146  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄIniPuertos  0/12  Ram=0
+      ÃÄIniVariables  0/9  Ram=0
+      ÃÄConfiguraPWM  0/34  Ram=0
+      ÃÄinit_tm1637  0/10  Ram=2
+      ³  ÃÄstart  0/18  Ram=0
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÀÄstop  0/32  Ram=0
+      ÃÄwrite_full_display  0/43  Ram=5
+      ³  ÃÄstart  0/18  Ram=0
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄstop  0/32  Ram=0
+      ³  ÃÄstart  0/18  Ram=0
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÀÄstop  0/32  Ram=0
+      ÃÄConfiguraPWM  0/34  Ram=0
+      ÃÄ@DIV1616  0/37  Ram=5
+      ÃÄ@ITOF  0/29  Ram=2
+      ÃÄVisualiza  0/210  Ram=2
+      ³  ÃÄ@MULFF  (Inline)  Ram=13
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÀÄwrite_full_display  0/43  Ram=5
+      ³     ÀÄ*
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄConfiguraPWM  0/34  Ram=0
+      ÃÄ@DIV1616  0/37  Ram=5
+      ÃÄ@ITOF  0/29  Ram=2
+      ÃÄVisualiza  0/210  Ram=2
+      ³  ÀÄ*
+      ÀÄ@delay_ms1  0/21  Ram=1

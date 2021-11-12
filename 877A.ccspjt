@@ -1,0 +1,20 @@
+[PROJECT]
+Target=877A.hex
+Processor_Text=PIC16F877
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=877A.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[877A.c]
+Type=4
+[mru-list]
+1=877A.c
+[Opened Files]
+1=877A.c
+2=
+3=
+[Units]
+Count=1
+1=877A (main)

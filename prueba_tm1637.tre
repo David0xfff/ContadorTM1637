@@ -1,0 +1,19 @@
+ÀÄprueba_tm1637
+   ÀÄMAIN  0/61  Ram=2
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@delay_ms1  0/23  Ram=1
+      ÃÄwrite_full_display  0/45  Ram=5
+      ³  ÃÄstart  0/18  Ram=0
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄstop  0/32  Ram=0
+      ³  ÃÄstart  0/18  Ram=0
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÃÄwritebyte  0/81  Ram=3
+      ³  ÀÄstop  0/32  Ram=0
+      ÀÄinit_tm1637  0/10  Ram=2
+         ÃÄstart  0/18  Ram=0
+         ÃÄwritebyte  0/81  Ram=3
+         ÀÄstop  0/32  Ram=0
